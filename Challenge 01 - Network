@@ -1,0 +1,6 @@
+ip link | awk -F: '$0 !~ "lo|vir|^[^0-9]"{print $2a;getline}'
+file_object.write(str1)
+file_object.close()
+
+file_object = open("output.txt")
+print file_object.read
