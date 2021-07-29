@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#Creates directories and moves text files to each one
 mkdir d1
 mkdir d2
 mkdir d3
