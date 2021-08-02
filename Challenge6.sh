@@ -1,11 +1,13 @@
 #!/bin/bash
 
+#Variable to define a directory
 allDirs=(uno)
 
+#Function to echo that directory
 dir_detec() {
  echo "$allDirs"
 }
-
+#While loop
 while [ true ]
 do
   echo %%%%%%Directory List%%%%%%
