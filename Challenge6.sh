@@ -17,7 +17,6 @@ do
   	echo Creating dir $userin
 	mkdir $userin
 	ls
-	echo Your dir has been created
   else
 	echo Directory already exists
   fi
