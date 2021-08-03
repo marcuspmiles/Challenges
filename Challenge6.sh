@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Variable to define a directory
+#List to define a directory
 allDirs=(uno)
 
 #Function to echo that directory
