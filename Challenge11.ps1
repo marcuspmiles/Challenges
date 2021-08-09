@@ -9,5 +9,5 @@ Enable-PSRemoting
 iex ((New-Object System.Net.WebClient).DownloadString('https://git.io/debloat'))
 #Enables HyperV
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
-#Tobbles SMB1 protocol to false, disabling it
+#Toggles SMB1 protocol to false, disabling it
 Set-SmbServerConfiguration -EnableSMB1Protocol $false -Force
